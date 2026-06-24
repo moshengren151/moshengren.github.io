@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title">
+  <title id="title">轻度恐怖跑酷原型封面</title>
+  <rect width="960" height="600" fill="#06080d"/>
+  <path d="M70 470h820" stroke="#62e6d3" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M170 470l84-210 84 210M622 470l96-260 96 260" fill="none" stroke="#9e7bff" stroke-opacity=".55" stroke-width="10"/>
+  <circle cx="430" cy="330" r="62" fill="#62e6d3" fill-opacity=".18" stroke="#62e6d3" stroke-width="4"/>
+  <path d="M430 392v78M376 420h108" stroke="#62e6d3" stroke-width="8" stroke-linecap="round"/>
+  <text x="70" y="110" fill="#eef6f8" font-family="Arial" font-size="48">Gameplay Prototype</text>
+  <text x="70" y="162" fill="#95a3b7" font-family="Arial" font-size="26">Chase · Timing · Feedback</text>
+</svg>

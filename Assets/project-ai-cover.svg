@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title">
+  <title id="title">AI 交互角色 Demo 封面</title>
+  <rect width="960" height="600" fill="#06080d"/>
+  <text x="70" y="110" fill="#eef6f8" font-family="Arial" font-size="48">AI Interaction</text>
+  <text x="70" y="162" fill="#95a3b7" font-family="Arial" font-size="26">Dialogue · Emotion · Scene Event</text>
+  <circle cx="480" cy="330" r="118" fill="#62e6d3" fill-opacity=".12" stroke="#62e6d3" stroke-width="5"/>
+  <path d="M385 328h190M480 232v190" stroke="#9e7bff" stroke-opacity=".68" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="315" cy="420" r="34" fill="#9e7bff" fill-opacity=".24"/>
+  <circle cx="645" cy="420" r="34" fill="#62e6d3" fill-opacity=".24"/>
+</svg>

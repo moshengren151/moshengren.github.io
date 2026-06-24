@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title">
+  <title id="title">VR 交互训练场景封面</title>
+  <rect width="960" height="600" fill="#06080d"/>
+  <text x="70" y="110" fill="#eef6f8" font-family="Arial" font-size="48">VR Interaction</text>
+  <text x="70" y="162" fill="#95a3b7" font-family="Arial" font-size="26">Spatial Input · Training Flow</text>
+  <rect x="210" y="250" width="220" height="140" rx="42" fill="#62e6d3" fill-opacity=".18" stroke="#62e6d3" stroke-width="5"/>
+  <rect x="530" y="250" width="220" height="140" rx="42" fill="#9e7bff" fill-opacity=".18" stroke="#9e7bff" stroke-width="5"/>
+  <path d="M430 320h100" stroke="#eef6f8" stroke-opacity=".55" stroke-width="8" stroke-linecap="round"/>
+  <path d="M260 460l-80 70M700 460l80 70" stroke="#62e6d3" stroke-opacity=".55" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XXX 的作品集</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <canvas id="particleCanvas" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-halo" aria-hidden="true"></div>
+  <div id="viewTransition" class="view-transition" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#" data-view="home" aria-label="返回首页">
+      <span class="brand-mark"></span>
+      <span>Unity Portfolio</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <button class="nav-button is-active" type="button" data-view="home">首页</button>
+      <button class="nav-button" type="button" data-view="about">个人介绍</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="homeView" class="view is-active" aria-labelledby="homeTitle">
+      <div class="hero">
+        <p class="eyebrow">Unity Developer</p>
+        <h1 id="homeTitle">XXX 的作品集</h1>
+        <p class="subtitle">Gameplay / VR / AI Interaction / Simulation</p>
+      </div>
+
+      <section class="section-block" aria-labelledby="projectsTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projectsTitle">项目作品</h2>
+        </div>
+        <div id="projectCarousel" class="project-carousel" aria-label="项目作品轮播">
+          <div id="projectGrid" class="project-track"></div>
+        </div>
+      </section>
+    </section>
+
+    <section id="detailView" class="view" aria-live="polite">
+      <button id="backButton" class="ghost-button detail-back" type="button">返回作品集</button>
+      <article id="projectDetail" class="detail-panel"></article>
+    </section>
+
+    <section id="aboutView" class="view" aria-labelledby="aboutTitle">
+      <div class="about-layout">
+        <aside class="profile-card">
+          <div class="photo-frame" aria-label="个人照片区域">
+            <span>PHOTO</span>
+          </div>
+          <h1 id="aboutTitle">XXX</h1>
+          <p>Unity 开发工程师</p>
+        </aside>
+
+        <div class="about-content">
+          <section class="glass-panel">
+            <p class="eyebrow">Profile</p>
+            <h2>个人介绍</h2>
+            <p>
+              专注于 Unity Gameplay、VR 交互、AI 交互原型和仿真类项目开发。擅长将玩法规则、输入反馈、动画表现和工程结构组合成稳定可迭代的体验。
+            </p>
+          </section>
+
+          <section class="glass-panel">
+            <p class="eyebrow">Skills</p>
+            <h2>技能标签</h2>
+            <div id="skillTags" class="tag-list"></div>
+          </section>
+
+          <section class="glass-panel">
+            <p class="eyebrow">Contact</p>
+            <h2>联系方式</h2>
+            <ul class="contact-list">
+              <li>邮箱：your-email@example.com</li>
+              <li>GitHub：https://github.com/moshengren151</li>
+              <li>作品集：https://moshengren.github.io/</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
