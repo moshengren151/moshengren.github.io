@@ -82,3 +82,5 @@ Assets/videos/
 *.webm
 .DS_Store
 Thumbs.db
+public-qr.png
+public-qr.html
