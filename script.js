@@ -1,4 +1,4 @@
-const projects = [
+﻿const projects = [
   {
     title: "轻度恐怖跑酷原型",
     type: "Gameplay Prototype",
@@ -66,11 +66,11 @@ const skills = [
   "Unity",
   "C#",
   "Gameplay",
-  "VR / XR",
-  "AI Interaction",
-  "Simulation",
-  "UI Flow",
+  "UGUI",
+  "Animator",
   "Mobile Adaptation",
+  "Game Prototype",
+  "Performance Optimization",
   "Git"
 ];
 
@@ -974,3 +974,4 @@ function initParticleBackground() {
     isRunning = false;
   }
 }
+
